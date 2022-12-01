@@ -9,8 +9,8 @@ namespace AdventOfCode2022.Day1
             var caloriesByList = result.Select(list => list.Sum());
             var mostCalories = caloriesByList.Max();
         }
-        [Fact]
 
+        [Fact]
         public void Part2()
         {
             var result = GetLists();
