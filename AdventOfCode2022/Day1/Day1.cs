@@ -3,7 +3,15 @@ namespace AdventOfCode2022.Day1
     public class Day1
     {
         [Fact]
-        public void Test1()
+        public void Part1()
+        {
+            var result = GetLists();
+            var caloriesByList = result.Select(list => list.Sum());
+            var mostCalories = caloriesByList.Max();
+        }
+        [Fact]
+
+        public void Part2()
         {
             var result = GetLists();
             var caloriesByList = result.Select(list => list.Sum());
