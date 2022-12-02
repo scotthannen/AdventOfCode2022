@@ -24,7 +24,7 @@ namespace AdventOfCode2022.Day1
         {
             var result = new List<List<int>>();
             result.Add(new List<int>());
-            var lines = File.ReadAllLines("day_1_input.txt");
+            var lines = File.ReadAllLines("day1\\day_1_input.txt");
             foreach (var line in lines)
             {
                 if (int.TryParse(line, out int calories))
